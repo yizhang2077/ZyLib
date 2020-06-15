@@ -2,8 +2,8 @@
 #define LOG_ASYNC_QUEUE_H_
 
 #include "logfile.h"
-#include "queue/BlockingQueue.h"
-#include "queue/BoundedBlockingQueue.h"
+#include "common/blockingqueue.h"
+#include "common/boundedblockingqueue.h"
 
 #include <thread>
 #include <assert.h>
